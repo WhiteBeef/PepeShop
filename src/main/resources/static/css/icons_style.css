@@ -29,9 +29,6 @@ ul {
 .icon-container {
     max-width: calc(25vw - 10px);
     text-align: left;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
     padding-bottom: 30px;
 }
 
@@ -48,6 +45,10 @@ ul {
     font-weight: 100;
     font-size: 14px;
     line-height: 1.55;
+}
+
+.icon-image {
+    width: 396px;
 }
 
 .coin-image {
@@ -94,6 +95,7 @@ ul {
 
     .icon-image {
         max-width: 100%;
+        margin-right: 0;
     }
 
     .icon-container {

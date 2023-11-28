@@ -1,7 +1,7 @@
 [
   {
     "id": "autumn_leaf",
-    "iconFilePath": "/img/icons/autumn_leaf.webp",
+    "iconFilePath": "/img/icons/autumn_leaf.png",
     "title": "Осенний листочек",
     "description": "Осень порой несет с собой грусть, так как многие деревья лишаются своих красочных листьев, создавая атмосферу ухода и увядания природы перед наступлением зимы.",
     "cost": 5000,
@@ -10,7 +10,7 @@
   },
   {
     "id": "mulled_wine",
-    "iconFilePath": "/img/icons/mulled_wine.webp",
+    "iconFilePath": "/img/icons/mulled_wine.png",
     "title": "Ароматный глинтвейн",
     "description": "Глинтвейн — древний напиток с красным вином, специями и цитрусовыми, популярный зимой и на праздниках.",
     "cost": 5000,
@@ -18,8 +18,8 @@
     "tag": ""
   },
   {
-    "id": "omelet",
-    "iconFilePath": "/img/icons/omelet.webp",
+    "id": "egg",
+    "iconFilePath": "/img/icons/egg.png",
     "title": "Яичница",
     "description": "Одно из самых простых и быстрых блюд. Ее можно подготовить всего за несколько минут, что делает ее популярным выбором для завтрака или легкого ужина.",
     "cost": 3500,
@@ -28,7 +28,7 @@
   },
   {
     "id": "fire",
-    "iconFilePath": "/img/icons/fire.webp",
+    "iconFilePath": "/img/icons/fire.png",
     "title": "Огонёк",
     "description": "Среди тьмы трудных моментов, держись, как светящийся огонёк. Твоя сила - как пламя, что несмотря на ветры жизни, продолжает светить внутри тебя.",
     "cost": 3500,
@@ -37,7 +37,7 @@
   },
   {
     "id": "christmas_hat",
-    "iconFilePath": "/img/icons/christmas_hat.webp",
+    "iconFilePath": "/img/icons/christmas_hat.png",
     "title": "Новогодняя шапочка",
     "description": "Дед Мороз в своем домике готовит подарки, держа в руках волшебную новогоднюю шапку. Он улыбается и желает, чтобы она принесла радость и веселье в каждый дом.",
     "cost": 4000,
@@ -46,7 +46,7 @@
   },
   {
     "id": "blue_crystals",
-    "iconFilePath": "/img/icons/blue_crystals.webp",
+    "iconFilePath": "/img/icons/blue_crystals.png",
     "title": "Синие кристаллы",
     "description": "Кристаллы с волшебным синим цветом, такие как лазурит, сапфир, турмалин, цианит и азурит, придают природе блеск и величественность.",
     "cost": 4000,
@@ -55,7 +55,7 @@
   },
   {
     "id": "sparkles",
-    "iconFilePath": "/img/icons/sparkles.webp",
+    "iconFilePath": "/img/icons/sparkles.png",
     "title": "Искорки",
     "description": "Самая уникальная иконка. С помощью неё ты точно покоришь все сердца!",
     "cost": 10000,
@@ -64,7 +64,7 @@
   },
   {
     "id": "plumeria",
-    "iconFilePath": "/img/icons/plumeria.webp",
+    "iconFilePath": "/img/icons/plumeria.png",
     "title": "Плюмерия",
     "description": "Известны своими красочными и ароматными цветами. Цветки могут быть различных оттенков, включая белый, желтый, розовый, красный и другие.",
     "cost": 5000,
@@ -73,7 +73,7 @@
   },
   {
     "id": "banana",
-    "iconFilePath": "/img/icons/banana.webp",
+    "iconFilePath": "/img/icons/banana.png",
     "title": "Банан",
     "description": "В тропическом лесу обитала веселая обезьянка Мия. Однажды, она обнаружила на ветке ветвистый банан и с радостью взяла его в лапки, считая его самым веселым и аппетитным в лесу.",
     "cost": 4500,
@@ -82,7 +82,7 @@
   },
   {
     "id": "pentagram",
-    "iconFilePath": "/img/icons/pentagram.webp",
+    "iconFilePath": "/img/icons/pentagram.png",
     "title": "Пентаграмма",
     "description": "Пентаграмма — символ с пятью углами, ассоциируемый с оккультными практиками и демонологией, придавая этому знаку таинственность и загадочность.",
     "cost": 4000,
@@ -91,7 +91,7 @@
   },
   {
     "id": "pumpkin",
-    "iconFilePath": "/img/icons/pumpkin.webp",
+    "iconFilePath": "/img/icons/pumpkin.png",
     "title": "Тыковка",
     "description": "Тыквы стали символом Хэллоуина благодаря ирландской традиции вырезать на них лица для отпугивания злых духов. ",
     "cost": 4000,
@@ -100,7 +100,7 @@
   },
   {
     "id": "honeycomb",
-    "iconFilePath": "/img/icons/honeycomb.webp",
+    "iconFilePath": "/img/icons/honeycomb.png",
     "title": "Медовые соты",
     "description": "Пчелы строят шестиугольные ячейки в соте, потому что это самая экономичная и прочная форма.",
     "cost": 4000,
@@ -109,7 +109,7 @@
   },
   {
     "id": "sakura",
-    "iconFilePath": "/img/icons/sakura.webp",
+    "iconFilePath": "/img/icons/sakura.png",
     "title": "Сакура",
     "description": "Символизирует красоту и временность жизни в японской культуре, была впервые посажена в VIII веке. С тех пор она стала глобальным символом весны и обновления.",
     "cost": 4000,
@@ -118,7 +118,7 @@
   },
   {
     "id": "broken_heart",
-    "iconFilePath": "/img/icons/broken_heart.webp",
+    "iconFilePath": "/img/icons/broken_heart.png",
     "title": "Разбитое сердце",
     "description": "Так болит сердце, словно струны из сломанных мелодий. В каждом вздохе звучит меланхолия утраченных моментов. Но даже среди обломков чувств, есть надежда, словно маленький светлячок во тьме.",
     "cost": 4000,
@@ -126,8 +126,8 @@
     "tag": ""
   },
   {
-    "id": "heaths",
-    "iconFilePath": "/img/icons/heaths.webp",
+    "id": "hearts",
+    "iconFilePath": "/img/icons/hearts.png",
     "title": "Сердечки",
     "description": "Эти маленькие символы любви, как магнит притягивают радость и тепло. Их милые формы напоминают о нежности чувств и делают мир ярче своей невинной красотой.",
     "cost": 4000,
@@ -136,7 +136,7 @@
   },
   {
     "id": "jellyfish",
-    "iconFilePath": "/img/icons/jellyfish.webp",
+    "iconFilePath": "/img/icons/jellyfish.png",
     "title": "Милая медузка",
     "description": "Медузы — морские беспозвоночные с прозрачным телом и щупальцами, передвигающиеся пульсациями и использующие клетки для захвата пищи.",
     "cost": 4000,
@@ -145,7 +145,7 @@
   },
   {
     "id": "spider",
-    "iconFilePath": "/img/icons/spider.webp",
+    "iconFilePath": "/img/icons/spider.png",
     "title": "Дружелюбный сосед - паук",
     "description": "Некоторые пауки создают паутинные конструкции, звучащие как шум насекомых, чтобы привлекать добычу через \"звуковую мимикрию\". Как тебе такое, Питер Паркер?",
     "cost": 4000,
@@ -154,7 +154,7 @@
   },
   {
     "id": "bat",
-    "iconFilePath": "/img/icons/bat.webp",
+    "iconFilePath": "/img/icons/bat.png",
     "title": "Летучая мышка",
     "description": "Летучие мыши могут съедать количество насекомых, превышающее их собственную массу, за одну ночь. Это как если бы человек съел количество еды, весом в несколько тонн, за ужин.",
     "cost": 4000,
@@ -163,7 +163,7 @@
   },
   {
     "id": "magic_book",
-    "iconFilePath": "/img/icons/magic_book.webp",
+    "iconFilePath": "/img/icons/magic_book.png",
     "title": "Магическая книжка",
     "description": "Гарри Поттер нашел магическую книгу, открыв которую, он встречал новые заклинания и удивительные секреты волшебства, погружаясь в волшебные приключения.",
     "cost": 4000,
@@ -172,7 +172,7 @@
   },
   {
     "id": "fox",
-    "iconFilePath": "/img/icons/fox.webp",
+    "iconFilePath": "/img/icons/fox.png",
     "title": "Хитрая лисичка",
     "description": "Лиса - хитрое создание леса с изысканной грацией, острым чутьем и умением приспосабливаться к окружающей среде, воплощая тайну и красоту природы.",
     "cost": 4000,
@@ -181,7 +181,7 @@
   },
   {
     "id": "grim_reaper",
-    "iconFilePath": "/img/icons/grim_reaper.webp",
+    "iconFilePath": "/img/icons/grim_reaper.png",
     "title": "Смерть с косой",
     "description": "Символ неизбежности и времени, молчаливый напоминатель о бренности жизни и власти над судьбой.",
     "cost": 4000,
@@ -190,7 +190,7 @@
   },
   {
     "id": "saturn",
-    "iconFilePath": "/img/icons/saturn.webp",
+    "iconFilePath": "/img/icons/saturn.png",
     "title": "Сатурн",
     "description": "Расстояние от Земли до Сатурна изменяется в пределах от 1,2 миллиарда до более чем 1,6 миллиарда километров, в зависимости от их положения на их орбитах.",
     "cost": 3500,
@@ -199,7 +199,7 @@
   },
   {
     "id": "green_leaf",
-    "iconFilePath": "/img/icons/green_leaf.webp",
+    "iconFilePath": "/img/icons/green_leaf.png",
     "title": "Зеленый листочек",
     "description": "Зеленый пигмент хлорофилл в листьях отвечает за фотосинтез, процесс, в результате которого растение преобразует свет в энергию.",
     "cost": 3500,
@@ -208,7 +208,7 @@
   },
   {
     "id": "moon_cat",
-    "iconFilePath": "/img/icons/moon_cat.webp",
+    "iconFilePath": "/img/icons/moon_cat.png",
     "title": "Лунный котик",
     "description": "В зачарованном саду обитает лунный котик — его мягкая шерсть светится лунным светом, а глаза полны загадочного сияния, оставляя лунные следы между цветами.",
     "cost": 3500,
@@ -217,7 +217,7 @@
   },
   {
     "id": "earth",
-    "iconFilePath": "/img/icons/earth.webp",
+    "iconFilePath": "/img/icons/earth.png",
     "title": "Планета Земля",
     "description": "Около 71% поверхности Земли покрыто водой, преимущественно в океанах. Этот процент водной поверхности делает воду доминирующим компонентом земной планеты.",
     "cost": 3500,
@@ -226,7 +226,7 @@
   },
   {
     "id": "party_candy",
-    "iconFilePath": "/img/icons/party_candy.webp",
+    "iconFilePath": "/img/icons/party_candy.png",
     "title": "Праздничный леденец",
     "description": "Праздничный леденец — сладкое волшебство, чтобы подарить улыбку и создать праздничное настроение.",
     "cost": 3000,
@@ -235,7 +235,7 @@
   },
   {
     "id": "cheese",
-    "iconFilePath": "/img/icons/cheese.webp",
+    "iconFilePath": "/img/icons/cheese.png",
     "title": "Сыр в мышеловке",
     "description": "Сыр - это такая волшебная ловушка для ваших вкусовых рецепторов, что они просто теряют свой компас и начинают танцевать в ритме сырной симфонии!",
     "cost": 3000,
@@ -244,7 +244,7 @@
   },
   {
     "id": "lily",
-    "iconFilePath": "/img/icons/lily.webp",
+    "iconFilePath": "/img/icons/lily.png",
     "title": "Кувшинка",
     "description": "Кувшинки, как маленькие волшебные амфоры, хранят в своих недрах капельки детского восторга и летнего света.",
     "cost": 3000,
@@ -253,7 +253,7 @@
   },
   {
     "id": "owl",
-    "iconFilePath": "/img/icons/owl.webp",
+    "iconFilePath": "/img/icons/owl.png",
     "title": "Милая совушка",
     "description": "Совы могут поворачивать голову на 270 градусов благодаря уникальной структуре шейных позвонков. Невероятно!",
     "cost": 3000,
@@ -261,11 +261,29 @@
     "tag": ""
   },
   {
-    "id": "deer",
-    "iconFilePath": "/img/icons/deer.webp",
-    "title": "Оленёнок",
-    "description": "Оленята - нежные создания леса, изящные и любопытные.",
+    "id": "rainbow",
+    "iconFilePath": "/img/icons/rainbow.png",
+    "title": "Солидарная радуга",
+    "description": "Как мост из цветных кирпичей, который даже единороги используют как главное средство межгалактического транспорта.",
     "cost": 3000,
+    "discount": 0,
+    "tag": ""
+  },
+  {
+    "id": "twitter",
+    "iconFilePath": "/img/icons/twitter.png",
+    "title": "Птичка Твиттер",
+    "description": "Она щебечет новости в цифровом лесу социальных сетей.",
+    "cost": 3000,
+    "discount": 0,
+    "tag": ""
+  },
+  {
+    "id": "flower",
+    "iconFilePath": "/img/icons/flower.png",
+    "title": "Серенький цветочек",
+    "description": "Тихо расцветает среди зеленых листьев, окутанный невидимым вальсом грусти, словно печальная мелодия весны.",
+    "cost": 2000,
     "discount": 0,
     "tag": ""
   }
