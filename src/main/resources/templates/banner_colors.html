@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="/css/style.css?v=1.2" rel="stylesheet">
+    <link href="/css/banners_style.css?v=1.2" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script th:if="${@environment.acceptsProfiles('dev','local')}" src="http://localhost:35729/livereload.js"
+            defer></script>
+
+
+    <title>Pepeshop</title>
+</head>
+<body>
+
+<header class="header">
+    <a href="/">
+        <div class="logo">
+            <img class="logo-image" src="/img/logo.webp" draggable="false" alt="Pepeshop logo">
+            <div class="logo-text">PEPESHOP</div>
+        </div>
+    </a>
+</header>
+
+<div class="banners">
+    <ul th:each="banner : ${banners}" class="banner-list">
+
+        <div class="banner-container" th:id="${banner.id}">
+            <img th:src="${banner.iconFilePath}" th:alt="${banner.title}" class="banner-image">
+            <div class="title" th:text="${banner.title}"></div>
+            <div class="description-container">
+                <div class="description" th:text="${banner.description}"></div>
+            </div>
+            <div class="cost-container">
+                <div class="cost" th:text="${banner.cost}"></div>
+                <img src="/img/coin.svg" class="coin-image">
+            </div>
+            <div class="buy-button-container">
+                <a href="https://discordapp.com/users/691748574274519131">
+                    <button class="buy-button">Приобрести</button>
+                </a>
+            </div>
+        </div>
+
+
+    </ul>
+</div>
+<footer>
+
+    <div class="footer-line-container">
+        <hr class="footer-line">
+    </div>
+    <div class="copyright-text">
+        © Pepeshop. All rights reserved
+    </div>
+
+</footer>
+</body>
+</html>

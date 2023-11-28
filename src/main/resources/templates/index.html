@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<!--
+    <link th:href="'/css/style.css?v='+${#dates.createNow().getTime()/1000%100000}" rel="stylesheet">
+-->
+    <link href="/css/style.css?v=1.2" rel="stylesheet">
+    <link href="/css/index_style.css?v=1.2" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script th:if="${@environment.acceptsProfiles('dev','local')}" src="http://localhost:35729/livereload.js"
+            defer></script>
+    <title>Pepeshop</title>
+</head>
+<body>
+<header class="header">
+    <div class="logo">
+        <img class="logo-image" src="/img/logo.webp" draggable="false" alt="Pepeshop logo">
+        <div class="logo-text">PEPESHOP</div>
+    </div>
+</header>
+
+<div class="description">
+    <div class="description-cover">
+        <div class="description-text-container">
+            <div class="description-title">Иконки и баннеры, которые ты заслужил</div>
+
+            <div class="description-text">Хочешь обновить свой профиль на Milkshake? Тебе к нам!
+                <br>У нас самые низкие цены и быстрое обслуживание.
+            </div>
+        </div>
+
+    </div>
+    <div class="arrow-container">
+        <a href="#select">
+            <img class="arrow-image" src="/img/arrow.svg" alt="Arrow">
+        </a>
+    </div>
+</div>
+
+
+<div class="selector" id="select">
+
+    <div class="selector-line-container">
+        <hr class="selector-line">
+    </div>
+
+    <div class="selector-title">Выберите категорию</div>
+    <ul class="selector-blocks">
+        <li class="selector-block">
+            <a class="selector-href" href="/icons">
+                <img class="selector-image" src="/img/gemstone.svg" draggable="false" alt="Gemstone icon">
+                <div class="selector-block-title">
+                    Иконки
+                </div>
+                <div class="selector-block-text">
+                    Украшение возле вашего ника, которое подчеркнет вашу <br>инивидуальность!
+                </div>
+            </a>
+        </li>
+        <li class="selector-block">
+            <a class="selector-href" href="/banners">
+                <img class="selector-image" src="/img/banners.svg" draggable="false" alt="Banners icon">
+                <div class="selector-block-title">
+                    Цвет баннера
+                </div>
+                <div class="selector-block-text">
+                    Сделает ваш профиль еще круче!
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>
+<footer>
+    <div class="links">
+        <a class="link-item" href="https://t.me/plyushkins_s" rel="nofollow noopener" aria-label="Telegram"
+           target="_blank">
+            <img class="link-image-tg" src="/img/telegram.svg" draggable="false" alt="Telegram icon"></a>
+        <a class="link-item" href="https://discordapp.com/users/691748574274519131" rel="nofollow noopener"
+           aria-label="Discord"
+           target="_blank">
+            <img class="link-image-ds" src="/img/discord.svg" draggable="false" alt="Discord icon"></a>
+    </div>
+    <div class="footer-line-container">
+        <hr class="footer-line">
+    </div>
+    <div class="copyright-text">
+        © Pepeshop. All rights reserved
+    </div>
+
+</footer>
+</body>
+</html>
