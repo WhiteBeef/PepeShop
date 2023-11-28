@@ -9,7 +9,7 @@ import ru.whitebeef.pepeshop.entity.IconItem;
 public class IconItemServiceTests {
 
     @Test
-    void pojoToJsonString() throws JsonProcessingException {
+    void testMappings() throws JsonProcessingException {
         ObjectMapper mapper = new ObjectMapper();
         IconItem[] items = {
                 new IconItem("autumn_leaf", "/img/icons/autumn_leaf.webp", "Осенний листочек", "Осень порой несет с собой грусть, так как многие деревья лишаются своих красочных листьев, создавая атмосферу ухода и увядания природы перед наступлением зимы.", 5000, 0, "NEW"),

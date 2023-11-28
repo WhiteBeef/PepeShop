@@ -1,0 +1,182 @@
+[
+  {
+    "id": "cosmic_banner",
+    "iconFilePath": "/img/banners/cosmic_banner.webp",
+    "title": "Космический баннер",
+    "description": "Вихрь таинственной галактики, обладает глубокой пурпурной основой, переходящей в черные и синие оттенки, создавая впечатление бескрайнего пространства и загадочной красоты вселенной.",
+    "cost": 1000,
+    "discount": 0,
+    "tag": "NEW"
+  },
+  {
+    "id": "black_banner",
+    "iconFilePath": "/img/banners/black_banner.webp",
+    "title": "Черный баннер",
+    "description": "Глубокий и бездонный, подобен темной ночи, воплощая в себе элегантность, таинственность и классическую строгость.",
+    "cost": 1000,
+    "discount": 0,
+    "tag": ""
+  },
+  {
+    "id": "white_banner",
+    "iconFilePath": "/img/banners/white_banner.webp",
+    "title": "Белый баннер",
+    "description": "Это лазурный свет рассвета, несет в себе чистоту, свет и простоту, символизируя невинность и яркое начало.",
+    "cost": 1000,
+    "discount": 0,
+    "tag": ""
+  },
+  {
+    "id": "gray_banner",
+    "iconFilePath": "/img/banners/gray_banner.webp",
+    "title": "Серый баннер",
+    "description": "Словно тихий аккомпанемент, украшает обстановку своей спокойной роскошью, придавая пространству изысканную гармонию и благородство.",
+    "cost": 900,
+    "discount": 0,
+    "tag": ""
+  },
+  {
+    "id": "brown_banner",
+    "iconFilePath": "/img/banners/brown_banner.webp",
+    "title": "Коричневый баннер",
+    "description": "Коричневый цвет, как нота земли, украшает палитру природы своей теплой и естественной красотой.",
+    "cost": 900,
+    "discount": 0,
+    "tag": ""
+  },
+  {
+    "id": "blue_green_banner",
+    "iconFilePath": "/img/banners/blue_green_banner.webp",
+    "title": "Умеренный синевато-зеленый баннер",
+    "description": "Цвет лилии — нежный и изысканный, словно перламутровая алебастр, он олицетворяет чистоту и возвышенность, принося в окружающий мир атмосферу благородства и красоты.",
+    "cost": 900,
+    "discount": 0,
+    "tag": ""
+  },
+  {
+    "id": "dark_green_banner",
+    "iconFilePath": "/img/banners/dark_green_banner.webp",
+    "title": "Темно-зеленый баннер",
+    "description": "Напоминает нам о мощи леса и таинственной атмосфере, что придает окружающему пространству невидимую, но устойчивую энергию.",
+    "cost": 900,
+    "discount": 0,
+    "tag": "Exclusive"
+  },
+  {
+    "id": "bright_green_banner",
+    "iconFilePath": "/img/banners/bright_green_banner.webp",
+    "title": "Ярко-зеленый баннер",
+    "description": "Как сочная трава летнего поля, наполняет пространство свежестью и энергией, внушая ощущение жизни и радости.",
+    "cost": 900,
+    "discount": 0,
+    "tag": ""
+  },
+  {
+    "id": "lime_banner",
+    "iconFilePath": "/img/banners/lime_banner.webp",
+    "title": "Лаймовый баннер",
+    "description": "Летняя свежесть, сочные цитрусы и яркие впечатления - почувствуй это!",
+    "cost": 900,
+    "discount": 0,
+    "tag": ""
+  },
+  {
+    "id": "blue_banner",
+    "iconFilePath": "/img/banners/blue_banner.webp",
+    "title": "Синий баннер",
+    "description": "Он художник - рисующий небесные картины, принося в серое повседневное ощущение возвышенности и бескрайности.",
+    "cost": 900,
+    "discount": 0,
+    "tag": ""
+  },
+  {
+    "id": "light_blue_banner",
+    "iconFilePath": "/img/banners/light_blue_banner.webp",
+    "title": "Голубой баннер",
+    "description": "Словно нежное касание летнего ветерка, приносит в себе свежесть небесной бескрайности, и в его оттенках таится загадочная гармония чистоты и спокойствия.",
+    "cost": 900,
+    "discount": 0,
+    "tag": ""
+  },
+  {
+    "id": "cyan_banner",
+    "iconFilePath": "/img/banners/cyan_banner.webp",
+    "title": "Бирюзовый баннер",
+    "description": "Как морской оттенок, сочетающий ярко-голубой и зеленоватый, воплощение изысканной красоты и свежести.",
+    "cost": 900,
+    "discount": 0,
+    "tag": ""
+  },
+  {
+    "id": "blue_purple_banner",
+    "iconFilePath": "/img/banners/blue_purple_banner.webp",
+    "title": "Сине-фиолетовый баннер",
+    "description": "Переход между сказочным небесным светом и глубинами волшебной ночи, придает пространству загадочную элегантность и изысканный характер.",
+    "cost": 900,
+    "discount": 0,
+    "tag": ""
+  },
+  {
+    "id": "purple_banner",
+    "iconFilePath": "/img/banners/purple_banner.webp",
+    "title": "Фиолетовый баннер",
+    "description": "На холсте фиолетовых воспоминаний, ткань сердец в элегантном стихе играет, таинственно в сердце, влюбленность тает.",
+    "cost": 900,
+    "discount": 0,
+    "tag": ""
+  },
+  {
+    "id": "crimson_banner",
+    "iconFilePath": "/img/banners/crimson_banner.webp",
+    "title": "Малиновый баннер",
+    "description": "Этот оттенок, сочетающий в себе глубокий красный и нежный розовый, приносит в наше существование яркие краски и несет в себе вихрь эмоций.",
+    "cost": 900,
+    "discount": 0,
+    "tag": ""
+  },
+  {
+    "id": "red_banner",
+    "iconFilePath": "/img/banners/red_banner.webp",
+    "title": "Красный баннер",
+    "description": "Мчится сквозь время, символизируя любовь, силу и яркость моментов, оставаясь в нашей памяти как яркая краска в памяти.",
+    "cost": 900,
+    "discount": 0,
+    "tag": ""
+  },
+  {
+    "id": "orange_banner",
+    "iconFilePath": "/img/banners/orange_banner.webp",
+    "title": "Оранжевый баннер",
+    "description": "Энергичный и яркий, он создает атмосферу оптимизма, подчеркивая красоту момента и напоминая о светлых возможностях каждого нового дня.",
+    "cost": 900,
+    "discount": 0,
+    "tag": ""
+  },
+  {
+    "id": "yellow_banner",
+    "iconFilePath": "/img/banners/yellow_banner.webp",
+    "title": "Желтый баннер",
+    "description": "Наполняет пространство светом и теплом, будто приглашая в мир ярких возможностей и радостных моментов.",
+    "cost": 900,
+    "discount": 0,
+    "tag": ""
+  },
+  {
+    "id": "coral_banner",
+    "iconFilePath": "/img/banners/coral_banner.webp",
+    "title": "Коралловый баннер",
+    "description": "Эта палитра вызывает ощущение уюта, спокойствия и тепла, а также ассоциируется с природной красотой коралловых рифов, добавляя в пространство нежность и изысканность.",
+    "cost": 900,
+    "discount": 0,
+    "tag": ""
+  },
+  {
+    "id": "toxic_pink_banner",
+    "iconFilePath": "/img/banners/toxic_pink_banner.webp",
+    "title": "Токсично-розовый баннер",
+    "description": "Розовый цвет, словно нежное прикосновение весеннего ветра, расцветает в окружающем мире, принося в серые дни изысканную сладость и невинность.",
+    "cost": 900,
+    "discount": 0,
+    "tag": ""
+  }
+]

@@ -26,7 +26,7 @@
     <ul th:each="icon : ${icons}" class="icon-list">
 
         <div class="icon-container" th:id="${icon.id}">
-            <img th:src="${icon.iconFilePath}" th:alt="${icon.title}">
+            <img th:src="${icon.iconFilePath}" th:alt="${icon.title}" class="icon-image">
             <div class="title" th:text="${icon.title}"></div>
             <div class="description-container">
                 <div class="description" th:text="${icon.description}"></div>
