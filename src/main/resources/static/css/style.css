@@ -51,6 +51,16 @@ header {
 
 }
 
+.image-container {
+    width: 396px;
+    height: 396px;
+    position: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 .logo-text {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 100;
@@ -63,9 +73,31 @@ header {
     line-height: 76%;
 }
 
+.tag-text {
+    position: relative;
+    right: unset;
+    left: 10px;
+    top: 10px;
+    color: #ffffff;
+    background-color: #ff4a4a;
+    border-radius: 50px;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 20px;
+    display: table-cell;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    border: 0;
+    padding: 0 10px;
+    text-transform: uppercase;
+}
+
 footer {
     background-color: #897373;
 }
+
 .footer-line-container {
     position: absolute;
     width: 100%;
@@ -79,6 +111,7 @@ footer {
     box-shadow: none;
     width: 50%;
 }
+
 .copyright-text {
     text-align: center;
     padding-top: 70px;
@@ -89,14 +122,48 @@ footer {
     color: white;
     padding-bottom: 30px;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
-ul{
+ul {
     margin: 0;
     padding: 0;
 }
-li{
+
+li {
     list-style-type: none;
+}
+
+
+.coin-image {
+    width: 21px;
+    position: absolute;
+    margin-top: -1px;
+}
+
+
+.cost-container {
+    display: -webkit-box;
+    padding-top: 14px;
+    text-align: left;
+}
+
+
+.cost {
+    display: contents;
+    position: relative;
+    height: auto;
+}
+
+.cost-discounted {
+    padding-left: 25px;
+    color: #bdbdbd;
+    text-decoration: line-through;
+}
+
+.cost-full {
+    display: contents;
+    text-decoration: line-through;
 }

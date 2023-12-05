@@ -26,14 +26,28 @@
     <ul th:each="icon : ${icons}" class="icon-list">
 
         <div class="icon-container" th:id="${icon.id}">
-            <img th:src="${icon.iconFilePath}" th:alt="${icon.title}" class="icon-image">
+            <div class="image-container" th:style="'background-image: url('+${icon.iconFilePath}+')'">
+                <div th:if="(${icon.tag} != '') or (${icon.discount} != 0)"
+                     th:text="${icon.discount==0} ? ${icon.tag} : '-' + ${icon.discount} + '%'"
+                     class="tag-text">
+                </div>
+            </div>
             <div class="title" th:text="${icon.title}"></div>
             <div class="description-container">
                 <div class="description" th:text="${icon.description}"></div>
             </div>
             <div class="cost-container">
-                <div class="cost" th:text="${icon.cost}"></div>
-                <img src="/img/coin.svg" class="coin-image">
+                <div class="cost">
+                    <span th:if="${icon.discount} == 0" th:text="${icon.cost}"></span>
+                    <span th:if="${icon.discount} != 0"
+                          th:text="${icon.cost} * (100 - ${icon.discount}) / 100  "></span>
+                    <img src="/img/coin.svg" class="coin-image">
+                </div>
+                <div th:if="${icon.discount}!=0" class="cost-discounted">
+                    <span class="cost-full" th:text="${icon.cost}"></span>
+                    <img th:if="${icon.discount}!=0" src="/img/coin_discounted.svg" class="coin-image">
+                </div>
+
             </div>
             <div class="buy-button-container">
                 <a href="https://discordapp.com/users/691748574274519131">

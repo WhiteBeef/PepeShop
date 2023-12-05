@@ -61,14 +61,12 @@ ul {
     width: 21px;
 }
 
-.cost-container {
-    display: flex;
-    position: center;
-    padding-top: 14px;
-}
-
 .buy-button-container {
     padding-top: 17px;
+}
+.tag-text{
+    position: relative;
+    margin-top: 100px;
 }
 
 .buy-button {
@@ -107,7 +105,7 @@ ul {
     }
 
     .banner-image {
-        width: 90vw;
+        width: clamp(30vw, 396px,90vw);
     }
 
     .title {
